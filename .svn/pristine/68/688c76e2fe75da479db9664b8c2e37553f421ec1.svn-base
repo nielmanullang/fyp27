@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
+	<meta name="author" content="webThemez.com">
+	<title>Materi | FYP27</title>
+	<link rel="favicon" href="bootstrap/images/favicon.png">
+	<link rel="stylesheet" href="bootstrap/css/font.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" media="screen">
+	<link rel="stylesheet" href="bootstrap/css/style.css">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="bootstrap/js/html5shiv.js"></script>
+	<script src="bootstrap/js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+<div class="header">
+		<div class="container">
+			<!--logo-->
+		<div class="row">
+			<div class="header-top">				
+				<div class="col-xa-12">
+					<div class="col-xs-2">
+						<a href="index.html"><img src="bootstrap/images/logo.png" width="85px" height="100px" /></a>
+					</div>
+					<div class="col-xs-8">
+						<div class="judul">HUKUM OHM</div>
+					</div>
+					<!--logo IT DEL-->
+					<div class="col-xs-2">
+						<a href="http://www.del.ac.id/"><img src="bootstrap/images/logo-del.png" width="85px" height="100px" align="right"/></a>
+					</div>					
+				</div>
+				<div class="clearfix" style="background-color: #ccccff; margin-left: 30px;"> </div>
+			</div>
+		</div>
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav nav-pills" role="tablist">
+					<li><a href="index.html">Beranda</a></li>
+					<li class="active"><a href="materi.html">Materi</a></li>
+					<li><a href="galerifoto.html">Galeri Foto</a></li>
+					<li><a href="hubungikami.html">Hubungi Kami</a></li>
+      </ul>
+	</div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<!-- /.navbar -->
+				<!--breadcrumb-->
+			<ul class="breadcrumb">
+				<li><a href="index.html">Beranda</a></li>
+				<li><a href="materi.html">Materi</a></li>
+				<li class="active"><a href="konten2.html">Arus Listrik dan Pengukurannya</a></li>
+			</ul>
+				<!--breadcrumb-->
+	<div id="courses">
+						<div class="konten">
+                   <h4><h3>Arus Listrik dan Pengukurannya</h3>
+					<br>&nbsp;&nbsp;&nbsp;&nbsp; Arus listrik adalah aliran muatan-muatan listrik yang melalui suatu penghantar. Dalam suatu rangkaian listrik, dapat terjadi arus listrik jika terdapat beda potensial listrik (beda tegangan listrik).
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Semakin banyak muatan listrik yang mengalir tiap satuan waktu dikatakan
+semakin besar (kuat) arus listriknya. Arah arus listrik dalam suatu rangkaian
+listrik yaitu dari potensial tinggi ke potensial rendah.
+<br>&nbsp;&nbsp;&nbsp;&nbsp; Kuat arus listrik dapat diukur dengan alat amperemeter, yang dapat dirakit
+dari alat basic meter yang dipasang dengan Shunt. Beda potensial listrik dapat
+diukur dengan alat voltmeter, yang dapat dirakit dari alat basic meter yang
+dipasang dengan Multiflier.
+<br><br><img src="bootstrap/images/konten2-1.png" border="0" alt="">
+<br><br><h4>1. Cara membaca skala hasil ukur amperemeter dan voltmeter</h4>
+&nbsp;&nbsp;&nbsp;&nbsp;Sebelum Anda mempraktikkan penggunaan amperemeter dan voltmeter,
+perhatikan contoh membaca hasil ukur dengan amperemeter dan voltmeter
+berikut.
+<br><h4>a. Alat ukur amperemeter</h4>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="bootstrap/images/konten2-2.png" border="0" alt="">
+<br><h4>b. Alat ukur voltmeter</h4>
+&nbsp;&nbsp;&nbsp;&nbsp;<img src="bootstrap/images/konten2-3.png" border="0" alt="">
+<br>
+<br>Sumber: <a href="http://bse.kemdikbud.go.id/index.php/buku/details/20090904214400/download">Buku Sekolah Elektronik Kemdikbud.</a>
+</div></div>	</div>
+					
+	<!-- container -->
+
+	<footer id="footer">
+		<div class="container">
+			<div class="clear"></div>
+			<!--CLEAR FLOATS-->
+		</div>
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="simplenav">
+								<a href="index.html">Beranda</a> | 
+								<a href="materi.html">Materi</a> |
+								<a href="galerifoto.html">Galeri Foto</a> |
+								<a href="hubungikami.html">Hubungi Kami</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="text-right">
+								Copyright &copy;2015<a href="tentangfyp27.html" rel="develop">FYP27</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<!-- /row of panels -->
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="bootstrap/jquery/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/custom.js"></script>
+</body>
+</html>

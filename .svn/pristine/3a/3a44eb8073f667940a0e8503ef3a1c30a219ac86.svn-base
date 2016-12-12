@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
+	<meta name="author" content="webThemez.com">
+	<title>Materi | FYP27</title>
+	<link rel="favicon" href="bootstrap/images/favicon.png">
+	<link rel="stylesheet" href="bootstrap/css/font.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" media="screen">
+	<link rel="stylesheet" href="bootstrap/css/style.css">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="bootstrap/js/html5shiv.js"></script>
+	<script src="bootstrap/js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+			<div class="navbar-brand"><a href="index.html"><img src="bootstrap/images/logo.png" width="85" height="100" border="0" alt=""></a>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hukum Ohm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.del.ac.id/"><img src="bootstrap/images/logo-del.png" width="85" height="100" border="0" alt=""></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right mainNav">
+					<li><a href="index.html">Beranda</a></li>
+					<li class="active"><a href="materi.html">Materi</a></li>
+					<li><a href="galerifoto.html">Galeri Foto</a></li>
+					<li><a href="hubungikami.html">Hubungi Kami</a></li>
+				</ul>
+			</div>
+                        </div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<h1>Materi</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="courses">
+						<div class="konten">
+						
+<h3>Sejarah Hukum Ohm</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Georg Simon Ohm (16 Maret 1789 - 6 Juli 1854) adalah seorang fisikawan Jerman dan matematika. Sebagai seorang guru SMA, Ohm memulai penelitiannya dengan sel elektrokimia baru, ditemukan oleh ilmuwan Italia Alessandro Volta. Menggunakan peralatan ciptaan sendiri, Ohm menemukan bahwa ada proporsionalitas langsung antara perbedaan potensial (tegangan) diterapkan di konduktor dan arus listrik yang dihasilkan. Hubungan ini dikenal sebagai hukum Ohm.
+<p><h3>Biografi</h3>
+<h3>Awal Tahun</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Georg Simon Ohm dilahirkan dalam sebuah keluarga Protestan di Erlangen, Brandenburg-Bayreuth, (kemudian bagian dari Kekaisaran Romawi Suci) dari pasangan Johann Wolfgang Ohm, seorang tukang kunci dan Maria Elizabeth Beck seorang penjahit di Erlangen. Meskipun orang tuanya belum berpendidikan formal, ayah Ohm adalah seorang pria terhormat yang telah mendidik dirinya sendiri ke tingkat yang tinggi dan mampu memberikan anak-anaknya pendidikan yang sangat baik melalui ajaran sendiri. Dari tujuh anak dari keluarga hanya tiga selamat sampai dewasa: Georg Simon, adiknya Martin, yang kemudian menjadi seorang ahli matematika terkenal, dan adiknya Elizabeth Barbara. Ibunya meninggal saat ia berusia sepuluh tahun. Dari anak usia dini, Georg dan Martin diajarkan oleh ayah mereka yang membawa mereka ke standar yang tinggi dalam matematika, fisika, kimia dan filsafat. 
+
+<h3>Karir Mengajar</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Studi Ohm sendiri mempersiapkan dirinya untuk doktor yang ia terima dari University of Erlangen pada tanggal 25 Oktober 1811. Dia segera bergabung dengan fakultas di sana sebagai dosen di matematika tapi kiri setelah tiga semester karena prospek menjanjikan. Dia tidak bisa bertahan hidup dengan gajinya sebagai dosen. Pemerintah Bavaria menawarinya pos sebagai guru matematika dan fisika di sebuah sekolah berkualitas buruk di Bamberg yang ohm diterima pada bulan Januari 1813. Tidak puas dengan pekerjaannya, Georg mulai menulis sebuah buku dasar pada geometri sebagai cara untuk membuktikan kemampuannya. SMA Ohm ditutup pada bulan Februari 1816. Pemerintah Bavaria kemudian mengirimnya ke sebuah sekolah yang penuh sesak di Bamberg untuk membantu dengan mengajar matematika.Setelah tugasnya di Bamberg, Ohm mengirimkan naskahnya selesai kepada Raja Wilhelm III dari Prusia. Raja merasa puas dengan buku Ohm, dan menawarkan Ohm posisi di Jesuit Gymnasium of Cologne pada tanggal 11 September tahun 1817. Sekolah ini memiliki reputasi untuk pendidikan sains yang baik dan Ohm diminta untuk mengajar fisika di samping matematika. Laboratorium fisika itu dilengkapi dengan baik, memungkinkan Ohm untuk memulai eksperimen dalam fisika. Sebagai anak tukang kunci, Ohm memiliki beberapa pengalaman praktis dengan alat mekanik.Ohm diterbitkan Die galvanishe Kette, mathematisch bearbeitet (The Galvanic Circuit Diselidiki matematis) pada tahun 1827. Perguruan Ohm tidak menghargai karyanya dan Ohm mengundurkan diri dari jabatannya. Ia kemudian membuat sebuah aplikasi untuk, dan dipekerjakan oleh, Politeknik Sekolah Nuremberg. Ohm tiba di Politeknik School of Nuremberg pada tahun 1833, dan pada tahun 1852 ia menjadi profesor fisika eksperimental di Universitas Munich. Ohm meninggal di Munich pada 1854, dan dimakamkan di Alter Sudfriedhof.
+
+<h3>Penemuan hukum Ohm</h3>
+Informasi lebih lanjut: Hukum Ohm
+<p>Hukum Ohm pertama kali muncul dalam bukunya yang terkenal Die galvanische Kette, mathematisch bearbeitet (Terj., The Galvanic Circuit Diselidiki matematis 1827) di mana dia memberikan teori yang lengkap tentang listrik. Dalam karya ini, ia menyatakan hukumnya untuk gaya gerak listrik yang bekerja antara ekstremitas dari setiap bagian dari rangkaian adalah produk dari kekuatan arus, dan hambatan itu bagian dari rangkaian.
+<p>Hukum Ohm adalah suatu pernyataan bahwa “besar arus listrik yang mengalir melalui sebuah penghantar selalu berbanding lurus dengan beda potensial dan berbanding terbalik dengan hambatan asalkan suhunya tetap” Hukum ini dicetuskan oleh George Simon Ohm, seorang fisikawan dari Jerman pada tahun 1825 dan dipublikasikan pada sebuah paper yang berjudul The Galvanic Circuit Investigated Mathematically pada tahun 1827.Sebuah benda penghantar dikatakan mematuhi hukum Ohm apabila nilai resistansinya tidak bergantung terhadap besar dan polaritas beda potensial yang dikenakan kepadanya.Walaupun pernyataan ini tidak selalu berlaku untuk semua jenis penghantar, namun istilah "hukum" tetap digunakan dengan alasan sejarah.
+Secara matematis hukum ohm di tuliskan dengan persamaan :
+
+<p>V=I.R
+
+<p>Dimana :<p>
+<img src="bootstrap/images/konten1.png" width="200" height="118" border="0" alt="">
+ 
+<p>V = Tegangan listrik, satuannya volt (V)
+<p>I = Kuat arus, satuannya ampere (A)
+<p>R = Hambatan, satuannya ohm (Ω)
+    <p>
+
+						</div>
+					
+				
+
+		</section>
+	</div>
+	<!-- container -->
+
+	<footer id="footer">
+		<div class="container">
+
+			<div class="clear"></div>
+			<!--CLEAR FLOATS-->
+		</div>
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="simplenav">
+								<a href="index.html">Beranda</a> | 
+								<a href="materi.html">Materi</a> |
+								<a href="galerifoto.html">Galeri Foto</a> |
+								<a href="hubungikami.html">Hubungi Kami</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="text-right">
+								Copyright &copy;2015<a href="tentangfyp27.html" rel="develop">FYP27</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<!-- /row of panels -->
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="bootstrap/jquery/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/custom.js"></script>
+</body>
+</html>

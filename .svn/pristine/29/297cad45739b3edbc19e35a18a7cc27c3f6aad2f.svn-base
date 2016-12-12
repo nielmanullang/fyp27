@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
+	<meta name="author" content="webThemez.com">
+	<title>Materi | FYP27</title>
+	<link rel="favicon" href="bootstrap/images/favicon.png">
+	<link rel="stylesheet" href="bootstrap/css/font.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" media="screen">
+	<link rel="stylesheet" href="bootstrap/css/style.css">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="bootstrap/js/html5shiv.js"></script>
+	<script src="bootstrap/js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+			<div class="navbar-brand"><a href="index.html"><img src="bootstrap/images/logo.png" width="85" height="100" border="0" alt=""></a>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hukum Ohm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.del.ac.id/"><img src="bootstrap/images/logo-del.png" width="85" height="100" border="0" alt=""></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right mainNav">
+					<li><a href="index.html">Beranda</a></li>
+					<li class="active"><a href="materi.html">Materi</a></li>
+					<li><a href="galerifoto.html">Galeri Foto</a></li>
+					<li><a href="hubungikami.html">Hubungi Kami</a></li>
+				</ul>
+			</div>
+                        </div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<h1>Materi</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="courses">
+						<div class="konten">
+                   <h4> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pernahkah Anda mengamati bagian-bagian lampu senter? Saat Anda memasang seluruh
+                   komponennya denganbenar lalu menyalakan sakelarnya, lampu di dalam akan menyala. Bagaimanakah mekanismenya? 
+                   <p> Baterai menghasilkan beda beda tegangan di antara kedua kutubnya. Saat sakelar dinyalakan, aarus listrik
+                   mengalir melalui  bola lampu sehingga menyebabkannya menyala. 
+                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bagaimanakah hubungan antara beda potensial dengan arus listrik dalam rangkaian? Untuk mengetahuinya, ini adalah bunyi dari Hukum Ohm. </h4>
+							<h2>Hukum Ohm</h2>				
+		<h3>"Kuat arus listrik pada suatu beban listrik berbanding lurus dengan tegangan dan berbanding terbalik dengan hambatan".</h3>
+		Sumber: <a href="https://books.google.co.id/books?id=_sbFfq_4Ae8C&pg=PA41&dq=hukum+ohm&hl=id&sa=X&ei=piljVYDkHqTimAWqkIOQBg&redir_esc=y#v=onepage&q=hukum%20ohm&f=false/">Klik disini.</a> dan <i>PHYSICS By Zaki Su'ud</i>
+						</div>
+					
+	</div>
+	<!-- container -->
+
+	<footer id="footer">
+		<div class="container">
+
+			<div class="clear"></div>
+			<!--CLEAR FLOATS-->
+		</div>
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="simplenav">
+								<a href="index.html">Beranda</a> | 
+								<a href="materi.html">Materi</a> |
+								<a href="galerifoto.html">Galeri Foto</a> |
+								<a href="hubungikami.html">Hubungi Kami</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="text-right">
+								Copyright &copy;2015<a href="tentangfyp27.html" rel="develop">FYP27</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<!-- /row of panels -->
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="bootstrap/jquery/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/custom.js"></script>
+</body>
+</html>

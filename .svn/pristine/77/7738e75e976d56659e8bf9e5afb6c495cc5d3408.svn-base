@@ -1,0 +1,447 @@
+/*jslint */
+/*global AdobeEdge: false, window: false, document: false, console:false, alert: false */
+(function (compId) {
+
+    "use strict";
+    var im='images/',
+        aud='media/',
+        vid='media/',
+        js='js/',
+        fonts = {
+        },
+        opts = {
+            'gAudioPreloadPreference': 'auto',
+            'gVideoPreloadPreference': 'auto'
+        },
+        resources = [
+        ],
+        scripts = [
+        ],
+        symbols = {
+            "stage": {
+                version: "5.0.0",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.0.375",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            id: 'tombolonoff2',
+                            type: 'image',
+                            rect: ['220px', '51px', '61px', '59px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"tombolonoff.png",'0px','0px']
+                        },
+                        {
+                            id: 'tombolonoff2Copy',
+                            type: 'image',
+                            rect: ['870px', '51px', '61px', '59px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"tombolonoff.png",'0px','0px']
+                        },
+                        {
+                            id: 'tombolf2',
+                            type: 'image',
+                            rect: ['295px', '66px', '28px', '27px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"tombolf.png",'0px','0px']
+                        },
+                        {
+                            id: 'tombolf2Copy',
+                            type: 'image',
+                            rect: ['425px', '66px', '28px', '27px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"tombolf.png",'0px','0px']
+                        },
+                        {
+                            id: 'tombolf2Copy3',
+                            type: 'image',
+                            rect: ['822px', '66px', '28px', '27px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"tombolf.png",'0px','0px']
+                        },
+                        {
+                            id: 'tombolf2Copy2',
+                            type: 'image',
+                            rect: ['690px', '66px', '28px', '27px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"tombolf.png",'0px','0px']
+                        },
+                        {
+                            id: 'batang12',
+                            symbolName: 'batang1',
+                            type: 'rect',
+                            rect: ['314', '40', '123', '46', 'auto', 'auto']
+                        },
+                        {
+                            id: 'batang12Copy',
+                            symbolName: 'batang1',
+                            type: 'rect',
+                            rect: ['707px', '40px', '123', '46', 'auto', 'auto']
+                        },
+                        {
+                            id: 'garis2',
+                            type: 'image',
+                            rect: ['444px', '78px', '260px', '2px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garis.png",'0px','0px']
+                        },
+                        {
+                            id: 'garis2Copy',
+                            type: 'image',
+                            rect: ['554px', '312px', '284px', '2px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garis.png",'0px','0px']
+                        },
+                        {
+                            id: 'garis2Copy2',
+                            type: 'image',
+                            rect: ['254px', '522px', '334px', '2px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garis.png",'0px','0px']
+                        },
+                        {
+                            id: 'garislurus2',
+                            type: 'image',
+                            rect: ['590px', '79px', '2px', '59px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garislurus2.png",'0px','0px']
+                        },
+                        {
+                            id: 'garislurus2Copy3',
+                            type: 'image',
+                            rect: ['590px', '254px', '2px', '117px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garislurus2.png",'0px','0px']
+                        },
+                        {
+                            id: 'garislurus2Copy7',
+                            type: 'image',
+                            rect: ['553px', '312px', '2px', '100px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garislurus2.png",'0px','0px']
+                        },
+                        {
+                            id: 'garislurus2Copy4',
+                            type: 'image',
+                            rect: ['836px', '254px', '2px', '59px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garislurus2.png",'0px','0px']
+                        },
+                        {
+                            id: 'garislurus2Copy5',
+                            type: 'image',
+                            rect: ['588px', '465px', '2px', '59px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garislurus2.png",'0px','0px']
+                        },
+                        {
+                            id: 'garislurus2Copy6',
+                            type: 'image',
+                            rect: ['554px', '445px', '2px', '79px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garislurus2.png",'0px','0px']
+                        },
+                        {
+                            id: 'garislurus2Copy2',
+                            type: 'image',
+                            rect: ['835px', '79px', '2px', '59px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garislurus2.png",'0px','0px']
+                        },
+                        {
+                            id: 'batangbiru2',
+                            type: 'image',
+                            rect: ['578px', '138px', '24px', '116px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"batangbiru.png",'0px','0px']
+                        },
+                        {
+                            id: 'batangbiru2Copy2',
+                            type: 'image',
+                            rect: ['578px', '349px', '24px', '116px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"batangbiru.png",'0px','0px']
+                        },
+                        {
+                            id: 'batangbiru2Copy',
+                            type: 'image',
+                            rect: ['825px', '138px', '24px', '116px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"batangbiru.png",'0px','0px']
+                        },
+                        {
+                            id: 'kotakkecil2',
+                            type: 'image',
+                            rect: ['295px', '343px', '243px', '122px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"kotakkecil.png",'0px','0px']
+                        },
+                        {
+                            id: 'lingkaran2',
+                            type: 'image',
+                            rect: ['500px', '430px', '24px', '27px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"lingkaran.png",'0px','0px']
+                        },
+                        {
+                            id: 'lingkaran2Copy',
+                            type: 'image',
+                            rect: ['500px', '397px', '24px', '27px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"lingkaran.png",'0px','0px']
+                        },
+                        {
+                            id: 'garishalus',
+                            type: 'image',
+                            rect: ['0px', '0px', '61px', '1px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garishalus.png",'0px','0px']
+                        },
+                        {
+                            id: 'garis2Copy4',
+                            type: 'image',
+                            rect: ['524px', '444px', '30px', '2px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garis.png",'0px','0px']
+                        },
+                        {
+                            id: 'garis2Copy5',
+                            type: 'image',
+                            rect: ['524px', '409px', '30px', '2px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garis.png",'0px','0px']
+                        },
+                        {
+                            id: 'garislurus3',
+                            type: 'image',
+                            rect: ['308px', '86px', '2px', '165px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garislurus3.png",'0px','0px']
+                        },
+                        {
+                            id: 'kotakbesar2',
+                            type: 'image',
+                            rect: ['36px', '147px', '245px', '165px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"kotakbesar.png",'0px','0px']
+                        },
+                        {
+                            id: 'lingkaran2Copy3',
+                            type: 'image',
+                            rect: ['243px', '272px', '24px', '27px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"lingkaran.png",'0px','0px']
+                        },
+                        {
+                            id: 'lingkaran2Copy2',
+                            type: 'image',
+                            rect: ['243px', '239px', '24px', '27px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"lingkaran.png",'0px','0px']
+                        },
+                        {
+                            id: 'tandapanahkeatas2',
+                            type: 'image',
+                            rect: ['48px', '191px', '30px', '46px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"tandapanahkeatas.png",'0px','0px']
+                        },
+                        {
+                            id: 'tandapanahkeatas2Copy',
+                            type: 'image',
+                            rect: ['48px', '254px', '30px', '46px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"tandapanahkeatas.png",'0px','0px'],
+                            transform: [[],['180']]
+                        },
+                        {
+                            id: 'garislurus3Copy2',
+                            type: 'image',
+                            rect: ['254px', '299px', '2px', '225px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garislurus3.png",'0px','0px']
+                        },
+                        {
+                            id: 'garis2Copy6',
+                            type: 'image',
+                            rect: ['265px', '250px', '43px', '2px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"garis.png",'0px','0px']
+                        },
+                        {
+                            id: 'Text',
+                            type: 'text',
+                            rect: ['199px', '15px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "On / Off",
+                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none", "", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'Text2',
+                            type: 'text',
+                            rect: ['429px', '178px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "1500 Ohm",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'Text3',
+                            type: 'text',
+                            rect: ['859px', '178px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "500 Ohm",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'Text4',
+                            type: 'text',
+                            rect: ['614px', '394px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "1000 Ohm",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'Text5',
+                            type: 'text',
+                            rect: ['142px', '200px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "1",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [60, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'Text7',
+                            type: 'text',
+                            rect: ['76px', '151px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "Arus Listrik",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'Text8',
+                            type: 'text',
+                            rect: ['348px', '349px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "Voltmeter",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "nowrap"]
+                        },
+                        {
+                            id: 'Text9',
+                            type: 'text',
+                            rect: ['836px', '15px', 'auto', 'auto', 'auto', 'auto'],
+                            text: "Switch A",
+                            align: "left",
+                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "700", "none solid rgb(0, 0, 0)", "normal", "break-word", "nowrap"]
+                        }
+                    ],
+                    style: {
+                        '${Stage}': {
+                            isStage: true,
+                            rect: ['null', 'null', '1000px', '550px', 'auto', 'auto'],
+                            overflow: 'hidden',
+                            fill: ["rgba(255,255,255,1.00)"]
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 180,
+                    autoPlay: true,
+                    data: [
+                        [
+                            "eid34",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${tandapanahkeatas2Copy}",
+                            '254px',
+                            '254px'
+                        ],
+                        [
+                            "eid50",
+                            "top",
+                            0,
+                            0,
+                            "linear",
+                            "${batang12Copy}",
+                            '40px',
+                            '40px'
+                        ],
+                        [
+                            "eid54",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${batang12Copy}",
+                            '707px',
+                            '707px'
+                        ],
+                        [
+                            "eid30",
+                            "height",
+                            0,
+                            0,
+                            "linear",
+                            "${tandapanahkeatas2Copy}",
+                            '46px',
+                            '46px'
+                        ],
+                        [
+                            "eid27",
+                            "rotateZ",
+                            0,
+                            0,
+                            "linear",
+                            "${tandapanahkeatas2Copy}",
+                            '180deg',
+                            '180deg'
+                        ]
+                    ]
+                }
+            },
+            "batang1": {
+                version: "5.0.0",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.0.375",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '16px', '124px', '14px', 'auto', 'auto'],
+                            id: 'batanghitam2',
+                            transform: [[], ['-15']],
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/batanghitam.png', '0px', '0px']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            isStage: 'true',
+                            rect: [undefined, undefined, '123px', '46px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 180,
+                    autoPlay: true,
+                    data: [
+                        [
+                            "eid44",
+                            "left",
+                            0,
+                            180,
+                            "linear",
+                            "${batanghitam2}",
+                            '0px',
+                            '-6px'
+                        ],
+                        [
+                            "eid47",
+                            "width",
+                            0,
+                            0,
+                            "linear",
+                            "${batanghitam2}",
+                            '124px',
+                            '124px'
+                        ],
+                        [
+                            "eid38",
+                            "rotateZ",
+                            0,
+                            180,
+                            "linear",
+                            "${batanghitam2}",
+                            '-15deg',
+                            '0deg'
+                        ],
+                        [
+                            "eid45",
+                            "top",
+                            0,
+                            180,
+                            "linear",
+                            "${batanghitam2}",
+                            '16px',
+                            '33px'
+                        ]
+                    ]
+                }
+            }
+        };
+
+    AdobeEdge.registerCompositionDefn(compId, symbols, fonts, scripts, resources, opts);
+
+    if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("animasi_edgeActions.js");
+})("EDGE-13364392");

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
+	<meta name="author" content="webThemez.com">
+	<title>Hubungi Kami | FYP27</title>
+	<link rel="favicon" href="bootstrap/images/favicon.png">
+	<link rel="stylesheet" href="bootstrap/css/font.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+	<!-- jquery -->
+	<script src="jquery/jquery-1.11.1.js" type="text/javascript"></script>
+	<script src="jquery/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/da-slider.css" />
+	<link rel="stylesheet" href="bootstrap/css/style.css">
+	<!--fromValidation-->
+	<link rel="stylesheet" href="formvalidation/css/formValidation.min.css" media="screen" >
+	<script src="formvalidation/js/formValidation.min.js"></script>
+	<script src="formvalidation/js/framework/bootstrap.min.js"></script>
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="bootstrap/js/html5shiv.js"></script>
+	<script src="bootstrap/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+<div class="header">
+		<div class="container">
+			<!--logo-->
+		<div class="row">
+			<div class="header-top">				
+				<div class="col-xa-12">
+					<div class="col-xs-2">
+						<a href="index.html"><img src="bootstrap/images/logo.png" width="85px" height="100px" /></a>
+					</div>
+					<div class="col-xs-8">
+						<div class="judul">HUKUM OHM</div>
+					</div>
+					<!--logo IT DEL-->
+					<div class="col-xs-2">
+						<a href="http://dev-pa1.del.ac.id/"><img src="bootstrap/images/logo-del.png" width="85px" height="100px" align="right"/></a>
+					</div>					
+				</div>
+				<div class="clearfix" style="background-color: #ccccff; margin-left: 30px;"> </div>
+			</div>
+		</div>
+	<!-- Fixed navbar -->
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav nav-pills" role="tablist">
+					<li><a href="index.html">Beranda</a></li>
+					<li><a href="materi.html">Materi</a></li>
+					<li><a href="galerifoto.html">Galeri Foto</a></li>
+					<li class="active"><a href="hubungikami.html">Hubungi Kami</a></li>
+      </ul>
+	</div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<!-- /.navbar -->
+				<!--breadcrumb-->
+			<ul class="breadcrumb">
+				<li><a href="index.html">Beranda</a></li>
+				<li class="active"><a href="hubungikami.html">Hubungi Kami</a></li>
+			</ul>
+				<!--breadcrumb-->
+	<div class="row">
+			<div class="col-sm-11 col-lg-12">
+				<div class="login-panel panel panel-success">
+					<div class="panel-heading">
+						<h3 class="heading"><center>Hubungi Kami</center></h3>
+					</div>
+						<div class="panel-body">
+							<form id="basicBootstrapForm" class="form-horizontal">
+									<br><div class="form-group">
+										<label class="col-xs-3 control control-label">Nama</label>
+											<div class="col-xs-7">
+												<input type="text" class="form-control" name="username" required placeholder="Masukkan nama anda"/>
+											</div>
+										</div>
+																	<div class="form-group">
+												<label class="col-xs-3 control-label">Email
+												</label>
+											<div class="col-xs-7">
+												<input type="text" class="form-control" name="email" type = "email" required placeholder="Masukkan email anda" pattern="^[_a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})" size="40">
+											</div>
+										</div>
+
+										<div class="form-group">
+												<label class="col-xs-3 control-label">Pesan
+												</label>
+												<div class="col-xs-7">
+													<textarea class="form-control" rows="6" cols="100" class="form-control" name="message" required placeholder="Masukkan pesan anda"/></textarea>
+												</div>
+										</div>
+
+										<div class="form-group">
+												<label class="col-xs-3 control-label" id="captchaOperation">
+												</label>
+											<div class="col-xs-7">
+												<input type="text" class="form-control" name="captcha" required placeholder="Masukkan hasil perhitungan"/>
+											</div>
+										</div>
+
+										<div class="form-group">
+											<div class="col-xs-7 col-xs-offset-3">
+												<div class="checkbox">
+											<label>
+												<input type="checkbox" name="agree" value="agree" required/> Agree with the terms and conditions
+											</label>
+												</div>
+											</div>
+										</div>
+
+										<div class="form-group">
+											<div class="form-group">
+												<div class="col-xs-10 col-xs-offset-3">
+													<button type="submit" class="btn btn-primary" name="signup" value="Sign up"> Submit</button>
+												</div>
+											</div>
+										</div>
+							</form>
+						</div>
+				</div>
+			</div>
+		</div>
+</form>
+<div class="alamatdel">
+<strong>Alamat:</strong><br />
+Institut Teknologi Del<br />
+Jl. Sisingamangaraja, Sitoluama<br />
+Laguboti, Kab. Tobasa<br />
+SUMUT, Indonesia 22381<br />
+Telp: (+62)632 331234<br />
+Fax: (+62)632 331116</p>    <!-- footerBottomSection -->	
+</div></div>
+<footer id="footer">
+		<div class="container">
+
+			<div class="clear"></div>
+			<!--CLEAR FLOATS-->
+		</div>
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="simplenav">
+								<a href="index.html">Beranda</a> | 
+								<a href="materi.html">Materi</a> |
+								<a href="galerifoto.html">Galeri Foto</a> |
+								<a href="hubungikami.html">Hubungi Kami</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="text-right">
+								Copyright &copy;2015<a target="newtab" href="tentangfyp27.html" rel="develop">FYP27</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<!-- /row of panels -->
+			</div>
+		</div>
+	</footer>
+</body>
+<script>
+$(document).ready(function() {
+	//generate a simple captcha
+	function randomNumber(min, max) {
+		return Math.floor(Math.random() * (max - min + 1) + min);
+	}
+	$('#captchaOperation').html([randomNumber(1, 100), '+', randomNumber(1, 200), '='].join(' '));
+
+	$('#basicBootstrapForm').formValidation({
+		framework: 'bootstrap',
+		icon: {
+			valid: 'glyphicon glyphicon-ok',
+			invalid: 'glyphicon glyphicon-remove',
+			validating: 'glyphicon glyphicon-refresh'
+		},
+		fields: {
+			username: {
+				validators: {
+					notEmpty: {
+						message: 'The name is required'
+						},
+					stringLength: {
+					min: 3,
+					max: 30,
+					message: 'The name must be more than 3 and less than 30 characters long'
+				},
+					}
+				},
+email: {
+	validators: {
+		notEmpty: {
+			message: 'The email is required'
+		},
+		emailAddress:{
+			message: 'The input is not a valid email address'
+		}
+	}
+},
+
+captcha: {
+	validators: {
+		callback: {
+			message: 'Wrong answer',
+			callback: function(value, validator, $field){
+				var items = $('#captchaOperation').html().split(' '), sum = parseInt(items[0]) + parseInt(items[2]);
+				return value == sum;
+			}
+		}
+	}
+},
+agree: {
+	validators: {
+		notEmpty: {
+			message: 'You must agree with the terms and conditions'
+				}
+			}
+		}
+	}
+
+});
+	
+});
+</script>	
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="bootstrap/js/modernizr-latest.js"></script>
+<script src="jquery/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/jquery.cslider.js"></script>
+<script src="bootstrap/js/custom.js"></script>
+</html>
+</html>

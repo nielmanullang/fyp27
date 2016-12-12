@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
+
+	<meta name="author" content="webThemez.com">
+
+	<title>Tentang | FYP27</title>
+
+	<link rel="favicon" href="bootstrap/images/favicon.png">
+
+	<!-- <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700"> -->
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" media="screen">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/da-slider.css" />
+
+	<link rel="stylesheet" href="bootstrap/css/style.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+	<!--[if lt IE 9]>
+
+	<script src="bootstrap/js/html5shiv.js"></script>
+
+	<script src="bootstrap/js/respond.min.js"></script>
+
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<!-- Fixed navbar -->
+
+	<div class="navbar navbar-inverse">
+
+		<div class="container">
+
+			<div class="navbar-header">
+
+				<!-- Button for smallest screens -->
+
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+
+			<div class="navbar-brand"><a href="index.html"><img src="bootstrap/images/logo.png" width="85" height="100" border="0" alt=""></a>
+
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hukum Ohm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			<a href="http://www.del.ac.id/"><img src="bootstrap/images/logo-del.png" width="85" height="100" border="0" alt=""></a>
+
+			</div>
+
+			<div class="navbar-collapse collapse">
+
+				<ul class="nav navbar-nav pull-right mainNav">
+
+					<li><a href="index.html">Beranda</a></li>
+
+					<li><a href="materi.html">Materi</a></li>
+
+					<li><a href="galerifoto.html">Galeri Foto</a></li>
+
+					<li class="active"><a href="hubungikami.html">Hubungi Kami</a></li>
+
+				</ul>
+
+			</div>
+
+                        </div>
+
+			<!--/.nav-collapse -->
+
+		</div>
+
+	</div>
+
+	<!-- /.navbar -->
+
+		<header id="head" class="secondary">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-sm-8">
+
+					<h1>Tentang Kami FYP27</h1>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</header>
+
+	<br>
+
+	<div class="container">
+
+		<table class="table table-bordered">
+
+			<thead>
+
+			</thead>
+
+			<tbody><tr>
+
+	<td width="33%"><center><img src="bootstrap/images/irma.png" width="200px" height="275px" alt="Irma"></center></td>
+
+	<td width="33%"><center><img src="bootstrap/images/bernike.png" width="200px" height="275px" alt="Bernike"></center></td>
+
+	<td width="33%"><center><img src="bootstrap/images/daniel.png" width="200px" height="275px" alt="Daniel"></center></td>
+
+</tr>
+
+<tr>
+
+	<td height="10%"><div>
+
+		<table class="table">
+
+			<tbody>
+
+				<tr><td>Nama</td><td>: <a href="https://www.facebook.com/irma.sihotang">Irma Charisah Riris Sihotang</a></td></tr>
+
+				<tr><td>Pekerjaan</td><td>: </td></tr>
+
+			</tbody>
+
+		</table>
+
+	</div></td>
+
+	<td><div>
+
+		<table class="table">
+
+			<tbody>
+
+				<tr><td>Nama</td><td>: <a href="https://www.facebook.com/bernike.c.ciitanggang">Bernike Christina Sitanggang</a></td></tr>
+
+				<tr><td>Pekerjaan</td><td>: </td></tr>
+
+			</tbody>
+
+		</table>
+
+	</div></td>
+
+	<td><div>
+
+		<table class="table">
+
+			<tbody>
+
+				<tr><td>Nama</td><td>: <a href="https://www.facebook.com/danielmanullang085830900100">Daniel Tua Hartopo Manullang</a></td></tr>
+
+				<tr><td>Pekerjaan</td><td>: </td></tr>
+
+			</tbody>
+
+		</table>
+
+	</div></td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+        
+
+	<footer id="footer">
+
+		<div class="container">
+
+			<div class="clear"></div>
+
+			<!--CLEAR FLOATS-->
+
+		</div>
+
+		<div class="footer2">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-6 panel">
+
+						<div class="panel-body">
+
+							<p class="simplenav">
+
+								<a href="index.html">Beranda</a> | 
+
+								<a href="materi.html">Materi</a> |
+
+								<a href="galerifoto.html">Galeri Foto</a> |
+
+								<a href="hubungikami.html">Hubungi Kami</a>
+
+							</p>
+
+						</div>
+
+					</div>
+
+					<div class="col-md-6 panel">
+
+						<div class="panel-body">
+
+							<p class="text-right">
+
+								Copyright &copy;2015<a href="tentangfyp27.html" rel="develop">FYP27</a>
+
+							</p>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<!-- /row of panels -->
+
+			</div>
+
+		</div>
+
+	</footer>
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+
+	<script src="bootstrap/jquery/jquery.min.js"></script>
+
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="bootstrap/js/custom.js"></script>
+
+</body>
+
+</html>

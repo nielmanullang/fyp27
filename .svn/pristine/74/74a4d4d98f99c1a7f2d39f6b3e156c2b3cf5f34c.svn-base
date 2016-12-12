@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
+	<meta name="author" content="webThemez.com">
+	<title>Materi | FYP27</title>
+	<link rel="favicon" href="bootstrap/images/favicon.png">
+	<link rel="stylesheet" href="bootstrap/css/font.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" media="screen">
+	<link rel="stylesheet" href="bootstrap/css/style.css">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="bootstrap/js/html5shiv.js"></script>
+	<script src="bootstrap/js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+			<div class="navbar-brand"><a href="index.html"><img src="bootstrap/images/logo.png" width="85" height="100" border="0" alt=""></a>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hukum Ohm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.del.ac.id/"><img src="bootstrap/images/logo-del.png" width="85" height="100" border="0" alt=""></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right mainNav">
+					<li><a href="index.html">Beranda</a></li>
+					<li class="active"><a href="materi.html">Materi</a></li>
+					<li><a href="galerifoto.html">Galeri Foto</a></li>
+					<li><a href="hubungikami.html">Hubungi Kami</a></li>
+				</ul>
+			</div>
+                        </div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<h1>Materi</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<br>
+	<div id="courses">
+		<section class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-leaf fa-2x"></i>
+						<div class="text">
+							<h3>Sejarah Hukum OHM</h3>
+							Georg Simon Ohm (16 Maret 1789 - 6 Juli 1854) adalah seorang fisikawan Jerman dan matematika.<p>
+							<a href ="konten1.html">Selanjutnya</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-leaf fa-2x"></i>
+						<div class="text">
+							<h3>Bunyi Hukum Ohm</h3>
+							Bunyi hukum Ohm: "Kuat arus listrik pada suatu beban listrik berbanding lurus dengan tegangan dan berbanding terbalik dengan hambatan".
+							<p><a href ="konten2.html">Selanjutnya</a>
+						</div>
+					</div>
+				</div>				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-leaf fa-2x"></i>
+						<div class="text">
+							<h3>Rumus Hukum OHM</h3>
+							Rumus ini menjelaskan mengenai perhitungan antara kuat arus listrik, resistor dan tegangan arus listrik.
+							<p><a href ="konten3.html">Selanjutnya</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-leaf fa-2x"></i>
+						<div class="text">
+							<h3>Soal dan Pembahasan</h3>
+							Soal dan Pembahasan ini menjelaskan mengenai cara melakukan perhitungan antara kuat arus listrik, resistor dan tegangan arus listrik.
+							&nbsp;&nbsp;<a href ="konten4.html">Selanjutnya</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="featured-box">
+						<i class="fa fa-quote-right fa-2x"></i>
+						<div class="text">
+							<h3>Kuis</h3>
+							Disini kami menyediakan kuis yang bertujuan untuk melatih para pengunjung dari apa yang telah dipelajari.
+							&nbsp;<a href="kuis.html">Selanjutnya</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</div>
+	<!-- container -->
+
+	<footer id="footer">
+		<div class="container">
+
+			<div class="clear"></div>
+			<!--CLEAR FLOATS-->
+		</div>
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="simplenav">
+								<a href="index.html">Beranda</a> | 
+								<a href="materi.html">Materi</a> |
+								<a href="galerifoto.html">Galeri Foto</a> |
+								<a href="hubungikami.html">Hubungi Kami</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="text-right">
+								Copyright &copy;2015<a href="tentangfyp27.html" rel="develop">FYP27</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<!-- /row of panels -->
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="bootstrap/jquery/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/custom.js"></script>
+</body>
+</html>

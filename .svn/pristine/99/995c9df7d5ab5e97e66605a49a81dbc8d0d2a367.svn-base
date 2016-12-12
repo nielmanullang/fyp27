@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
+	<meta name="author" content="webThemez.com">
+	<title>Materi | FYP27</title>
+	<link rel="favicon" href="bootstrap/images/favicon.png">
+	<link rel="stylesheet" href="bootstrap/css/font.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" media="screen">
+	<link rel="stylesheet" href="bootstrap/css/style.css">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="bootstrap/js/html5shiv.js"></script>
+	<script src="bootstrap/js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+			<div class="navbar-brand"><a href="index.html"><img src="bootstrap/images/logo.png" width="85" height="100" border="0" alt=""></a>
+		    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hukum Ohm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="http://www.del.ac.id/"><img src="bootstrap/images/logo-del.png" width="85" height="100" border="0" alt=""></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right mainNav">
+					<li><a href="index.html">Beranda</a></li>
+					<li class="active"><a href="materi.html">Materi</a></li>
+					<li><a href="galerifoto.html">Galeri Foto</a></li>
+					<li><a href="hubungikami.html">Hubungi Kami</a></li>
+				</ul>
+			</div>
+                        </div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+	<!-- /.navbar -->
+
+	<header id="head" class="secondary">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<h1>Materi</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="courses">
+						<div class="konten">
+							<h3>Soal dan Pembahasan</h3>
+							
+Berikut ini pembuktian perhitungan Hukum Ohm dengan rangkaian secara sederhana
+<p><img src="bootstrap/images/konten5-1.png" width="300" height="150" border="0" alt="">
+ 
+<br>Hitunglah besar tegangan
+<br>U = I x R = 1 x 20 = 20 V 
+<br>Hasil kontrol dengan voltmeter : Hasil pengukuran = Hasil perhitungan 
+
+<p><img src="bootstrap/images/konten5-2.png" width="300" height="150" border="0" alt=""> 
+<br>Hitunglah kuat arus 
+<br>I = U / R = 10 / 50 = 0,2 A 
+<br>Hasil kontrol dengan Ampermeter : I Pengukuran = 0,2 A (Sama dengan hasil perhitungan)
+
+
+<p><img src="bootstrap/images/konten5-3.png" width="300" height="150" border="0" alt="">
+<br>Hitunglah besar tahanan 
+<br>R = U / I = 12 / 0,4 = 30 Ω 
+<br>Lepaskan tahanan dari sumber tegangan pada saat pengukuran tahanan 
+<br>Hasil kontrol dengan Ohmmeter : R pengukuran = 30 Ω (sama dengan hasil perhitungan) 
+
+<br>Arus Listrik dalam Hukum Ohm
+<br>Rumus hukum ohm di atas bisa di tata ulang menjadi
+<br><img src="bootstrap/images/konten5-4.png" width="116" height="85" border="0" alt="">
+<br>Persamaan diatas menunjukkan variabel yang mempengaruhi besarnya arus listrik adalah tegangan dan hambatan. Arus listrik dalam rangkaian berbanding lurus dengan beda potensial dan berbanding terbalik dengan hambatan total. Semakin besar tegangan baterai maka akan semakin besar arus listrik. Semakin besar hambatan maka akan semakin kecil arus listrik. Untuk lebih memahami hubungan tersebut sobat bisa melihat tabel di bawah ini.  
+<br><img src="bootstrap/images/konten5-5.png" width="377" height="495" border="0" alt="">
+<br>Ada banyak hambatan yang ada dalam sebuah rangkaian, bisa berupa lampu, kapasitor, sumber tegangan, dan bahkan kawat penghantar itu sendiri. Besarnya hambatan yang muncul pada sebuah kawat penghantar tergantung pada beberapa hal:
+<br>a. Hambatan jenis kawat (ρ)
+<br>b. panjang kawat penghantar (l)
+<br>c. luas penampang kawat (A)
+<br>Secara matematis dirumuskan
+<br><img src="bootstrap/images/konten5-6.png" width="126" height="95" border="0" alt="">
+<br>Hambatan jenis kawat penghantar sangat dipengaruhi oleh suhu kawat tersebut. Semakin tinggi sushu maka semakin besar hambatan jenisnya dan semakin besar pula hambatan listriknya.
+<br>ρ1 = ρo (1 + α. ΔT)
+<br>dengan
+<br>ρ1 = hambatan jenis pada suhu toC (ohm.m)
+<br>ρo= hambatan jenis pada shumu mula mula (ohm.m)
+<br>α = koefisien suhu (oC-1)
+<br>ΔT = perubahan suhu
+<br>Karena hambatan jenis kawat mengalami perubahan saat suhunya berubah, maka hambatan listriknyapun akan mengalami perubahan.
+<br>Rt = Ro (1 + α. ΔT)
+<br>Ro = hambatan pada suhu mula-mula
+<br>R1 = hambatan pada suhu t oC
+<br>Untuk lebih memahami tentang hukum ohm berikut rumusnya mari kita simak contoh soal dan pembahasannya berikut (http://rumushitung.com/2014/08/09/hukum-ohm-fisika-sma/)
+<br>Contoh Soal Hukum Ohm
+<p>1. Sebuat alat pemanggan roti elektrik 10 ampere dihubungkan dengan sumber 220 volt. Berapa hambatan yang terjadi
+<br>a. 0,5 ohm &nbsp;&nbsp;&nbsp;	b. 5 ohm  &nbsp;&nbsp;&nbsp;  c. 10 ohm &nbsp;&nbsp;&nbsp;  d. 11 ohm &nbsp;&nbsp;&nbsp;	e. 22 ohm 		
+<br>Jawaban
+<br>Diketahui
+<br>V = 220 volt
+<br>I = 10 ampere
+<br>Ditanya
+<br>R = …?
+<br>Jawab
+<br>R = V/I = 220/10 = 22 ohm (jawaban E)
+<p>2. Sebuah kawat panjang 10 meter dengan diameter 1 mm dan hambatan jenisnya 6,28. 10-6 ohmmeter. Berapakah hambatan kawat tersebut?
+<br>a. 10 ohm &nbsp;&nbsp;&nbsp; b. 5 ohm &nbsp;&nbsp;&nbsp;	c. 8 ohm &nbsp;&nbsp;&nbsp; d. 4 ohm &nbsp;&nbsp;&nbsp;	e. 2 ohm 		
+<br>Jawab :
+<br>Diketahui
+<br>l = 10 m
+<br>r = 1 mm = 10-3 m
+<br>ρ = 6,28. 10-6 ohmmeter
+<br>Ditanyakan
+<br>R = ..?
+<br>Jawab
+<br>R = ρ l/A
+<br>Luas penampang kawat = luas lingkaran (yuk baca rumus luas lingkaran)
+<br>A = π r2   sehingga
+<br>R = ρ l/π r2
+<br>R = 6,28. 10-6 . 10 / 3,14 . (10-3)2
+<br>R = 6,28. 10-6 . 10 / 3,14 . 10-6.
+<br>R = 20 ohm.
+<p>3.  Sebuah termometer hambatan platina mempunyai hambatan 40 ohm pada suhu 20oC. Ketika termometer hambatan tersebut diccelupkan ke dalam bejana yang berisi leburan logam aluminium (baca : apa itu logam aluminium), hambatannya menjadi 126 ohm. 
+<br>Berapa titik lebur alumunium tersebut?
+<br>Diketahui koefisien suhu α = 3,92 . 10-3/oC
+<br>Jawaban
+<br>Ro = 40Ohm
+<br>Rt = 126 Ohm
+<br>To = 20oC
+<br>Rt = Ro (1 + α. ΔT)
+<br>126 = 40 (1 + 3,92 . 10-3. ΔT)
+<br>126 = 40 + 0,1568. ΔT
+<br>86 = 0,1568. ΔT
+<br>ΔT = 86/0,1568
+<br>ΔT = 548, 5oC
+<br>Titik Lebur Aluminium
+<br>ΔT = T1 – To
+<br>548, 5 = T1 – 20
+<br>T1 = 548,5 + 20 568,5 oC
+<br>Contoh Soal
+<br>Hukum Ohm
+<br>Arus listrik 2A mengalir melalui seutas kawat penghantar ketika beda potensial 12 V diberikan pada ujung-ujungnya. Tentukan hambatan listrik pada kawat tersebut!
+<br>Jawab :
+<br>Diketahui
+<br>i = 2A                              R= V/I
+<br>V= 12 V                             = 12/ 2
+<br>ditanya R ?                       = 6 ohm
+<br>Hambatan kawat dalam penghantar
+<br>Kawat yang hambat jenisnya 0,000 001 Ωm dan luas penampangnya 0,000 000 25 m² digunakan untuk membuat elemen pembakar listrik 1kW yang harus memiliki hambatan listrik 57,6 ohm. Berapa panjang kawat yang diperlukan?
+<br>Jawab :
+<br>Diketahui
+<br>ρ = 0,000 001 Ωm        R = 57,6 Ω
+<br>A = 0,000 000 25 m²
+<br>Ditanya L ?
+<br>Jawab
+<br>R = ρ (L/A)   =
+<br>57,6 = 0.000 001 . (L/o.oooooo25)
+<br>L        = 57,6 . 0,25
+<br>L          =  14,4 m
+<br>Rangkaian Seri
+<br>Bila R1 = 30 Ohm, R2 = 40 ohm dan R3= 10 ohm disusun secara seri, berapakah hambatan pengganti dari rangkaian di atas?
+<br>Jawab :
+<br>Jawab :
+<br>Karena rangkaian seri, maka
+<br>Rangkaian pengganti =R1+R2=R3 = 30 + 40 + 10 = 80 Ohm
+<br>Rangkaian Paralel
+<br>Jika R1 = 10 ohm, R2 = 15 ohm dan R3 = 30 ohm disusun paralel, berapakah hambatan pengganti dari rangkaian diatas?
+<br>Karena paralel mka :
+<br>1/R1+1/R2+1/R3 = 1/10+1/15+1/30= 6/30
+<br>Rangkaian pengganti = 30/6 = 5 Ohm
+<br>•	Kawat penghantar kedua ujungnya memiliki beda potensial 6 volt, menyebabkan arus listrik mengalir pada kawat itu 2 A. Berapakah hambatan kawat itu?
+<br><img src="bootstrap/images/konten5-7.png" width="450" height="362" border="0" alt="">
+<p>•	Konduktor berhambatan 400 Ω dihubungkan dengan sumber tegangan, sehingga mengalir arus listrik 500 mA. Berapakah beda potensial ujung-ujung konduktor tersebut?
+<br><img src="bootstrap/images/konten5-8.png" width="604" height="331" border="0" alt="">
+						</div>
+					
+				
+
+		</section>
+	</div>
+	<!-- container -->
+
+	<footer id="footer">
+		<div class="container">
+
+			<div class="clear"></div>
+			<!--CLEAR FLOATS-->
+		</div>
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="simplenav">
+								<a href="index.html">Beranda</a> | 
+								<a href="materi.html">Materi</a> |
+								<a href="galerifoto.html">Galeri Foto</a> |
+								<a href="hubungikami.html">Hubungi Kami</a>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<p class="text-right">
+								Copyright &copy;2015<a href="tentangfyp27.html" rel="develop">FYP27</a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<!-- /row of panels -->
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="bootstrap/jquery/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="bootstrap/js/custom.js"></script>
+</body>
+</html>
